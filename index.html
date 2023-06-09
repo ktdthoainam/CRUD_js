@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body onload ="viewData()">
+    <h1>QUẢN LÝ DANH SÁCH HỌC SINH</h1>
+    <table>
+        <tbody class="tbody" >
+            <tr>
+                <td><b>Tên học sinh:</b></td>
+                <td><input colspan="3" id="nameInput" placeholder="Name" class="input"> </input></td>
+            </tr>
+            <tr>
+                <td><b>Năm sinh:</b></td>
+                <td><input colspan="3" id="birthInput" placeholder="Birth" class="input"> </input></td>
+            </tr>
+            <tr>
+                <td><b>Mã học sinh:</b></td>
+                <td><input colspan="3" id="idInput" placeholder="Id" class="input"> </input></td>
+            </tr>
+            <tr>
+                <td><b>Email:</b></td>
+                <td><input colspan="3" id="emailInput" placeholder="Email" class="input"> </input></td>
+            </tr>
+            <tr>
+                <td><input  id="index" type="hidden" > </input></td>
+            </tr>
+                </tbody>
+    </table>
+    <div>
+        <button  id="addbtn" ><b>Add New</b></button>
+        <button  id="updatetbtn" style="display: none;">Update</button>
+    </div>
+    <div>
+        <table class="table" border="2" cellspacing = "0"  cellpadding = "10">
+         </table>
+    </div>
+    </body>
+  <script src="script.js"></script>
+
+</html>
